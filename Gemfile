@@ -10,6 +10,7 @@ gem 'pg'
 gem 'puma', '~> 3.11'
 gem 'redis', '~> 4.0'
 gem 'bootsnap', '>= 1.1.0', require: false
+gem 'dotenv-rails'
 
 # Auth
 gem 'bcrypt', '~> 3.1.7'
