@@ -76,6 +76,7 @@ ActiveRecord::Schema.define(version: 2020_06_12_140649) do
   create_table "questions", force: :cascade do |t|
     t.string "title", null: false
     t.string "description", null: false
+    t.string "slug", null: false
     t.integer "views", default: 0, null: false
     t.bigint "user_id", null: false
     t.json "tags"
